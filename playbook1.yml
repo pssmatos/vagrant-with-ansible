@@ -11,5 +11,5 @@
 - hosts: host1
   become: yes
   tasks:
-    - name: install tomcat8
-      apt: name=tomcat8 state=present
+    - name: install tomcat9
+      apt: name=tomcat9 state=present
